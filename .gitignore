@@ -1,0 +1,28 @@
+# 环境变量（绝对不能上传）
+.env
+
+# 依赖
+node_modules/
+
+# 上传的图片（每次部署时再单独处理）
+server/uploads/*
+
+# 保持 uploads 目录结构
+!server/uploads/.gitkeep
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 日志
+*.log
+npm-debug.log*
+
+# 构建产物
+dist/
+build/
